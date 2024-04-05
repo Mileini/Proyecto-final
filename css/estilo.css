@@ -402,8 +402,8 @@ video{
     }
 }
 
-/*seccion del chef*/
-.chef h2{
+/*seccion del cuidado*/
+.cuidado h2{
     background-color: var(--rojo);
     display: inline-block;
     padding: 1rem 3rem;
@@ -411,19 +411,19 @@ video{
     font-size: 4rem;
 }
 @media(min-width: 768px) {
-    .contenido-chef{
+    .contenido-cuidado{
         display: flex;
         justify-content: space-between;
     }
 }
-.texto-chef, .imagen-chef{
+.texto-cuidado, .imagen-cuidado{
     flex: 0 0 calc(50% - 1rem);
 }
-.texto-chef h3{
+.texto-cuidado h3{
     font-size: 3rem;
 
 }
-.texto-chef p{
+.texto-cuidado p{
     font-size: 2rem;
     
 }
