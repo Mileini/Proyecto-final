@@ -13,41 +13,46 @@
         rel="stylesheet">
     <link rel="stylesheet" href="/css/estilo.css">
     <link rel="stylesheet" href="/css/normalize.css">
+    
 </head>
 
 <body>
+<!--encabezado-->
     <header class="encabezado">
         <div class="contenedor-navegacion">
             <div class="contenido-navegacion contenedor">
                 <div class="logo">
+                    <!--logo-->
                     <a class="navbar-brand" href="#">
-                        <img data-src="img/huella (1).png" alt="Bootstrap" width="40" height="30"></a> 
+                        <img  data-src="img/pata (2).png" alt="Bootstrap" width="40" height="30"></a> 
                         <h2>Refugio de perritos <span class="verde"></span><span></span><span class="r"></h2>
                                                 
                 </div>
                 
                                                 
-               
+               <!--enlaces del menu-->
                 <nav class="navegacion ocultar">
-                    <a href="#">Inicio</a>
-                    <a href="#">Quienes somos</a>
-                    <a href="#">Razas de perritos</a>
-                    <a href="#">Nuestros cuidados</a>
-                    <a href="#">Contactos</a>
-                    <a href="#">Adopciones</a>
-                    <a href="#">Nuestros Horarios</a>
+                    <a href="#incio">Inicio</a>>
+                    <a href="#somos">Quienes somos</a>>
+                    <a href="#objetivo">Objetivo</a>>
+                    <a href="#raza">Razas de perritos</a>>
+                     <a href="#cuidado">Nuestros cuidados</a>
+                    <a href="#contact">Contactos</a>>
+                    <a href="#horarios">Nuestros Horarios</a>>
                 </nav>
                 <div class="perros">
                     <span></span><span></span><span></span>
                 </div>
             </div>
+        
         </div>
-        <div class="contenido-header">
-            <div class="contenedor-encabezado">
+        <!--contenido del menu-->
+        <div class="contenido-header" id="inicio">
+            <div class="contenedor-encabezado"  >
                 <div class="texto-encabezado">
                     <h2>Patitas Felices</h2>
-                    <a href="#" class="btn bordes">Nuestro menú</a>
                 </div>
+                <!--pone el video menu mudo-->
                 <video autoplay loop muted>
                     <source src="/video/WhatsApp Video 2024-03-06 at 7.11.28 AM.mp4">
                 </video>
@@ -55,14 +60,17 @@
         </div>
     </header>
 
-    <div class="contenedor-nosotros contenedor">
-        <div class="texto-nosotros">
+    <div class="contenedor-nosotros contenedor" id="somos">
+        <div class="texto-nosotros" id="texto-nosotros">
             <p class="bienvenida">Quienes somos</p>
-            <p>Le brindamos proteccion a los perritos en estados de maltrato y abandono.
-                Les brindamos alimentos, medicamentos y albergue, con el proposito 
-                de mejorar su calidad de vida y conseguirles un hogar.
+            <p>Somos un refugio que se encarga de brindar protección a los perritos en estado de maltrato y abandono. 
+                Uno de nuestros objetivos es mejorar la calidad de vida y conseguirle un hogar. Todos los animales que acogemos 
+                reciben la debida atención veterinaria, ya sea análisis, tratamientos, cirugía, etc., y son identificados ,esterilizados 
+                antes de emprender la búsqueda de adoptantes. También defendemos el sacrificio cero esto significa que establecemos una 
+                línea muy clara entre el sacrificio y la eutanasia. Nunca sacrificamos cachorros recién nacidos ni animales cojos, ciegos, 
+                sordos o con enfermedades crónicas que sean tratables
             </p>
-            <a href="#" class="btn btn-rojo">Contactar</a>
+
         </div>
         <div class="imagenes-nosotros">
             <div class="imagen1">
@@ -74,97 +82,129 @@
             </div>
         </div>
     </div>
-    <div id="container">
-        <div>
-            <h1>Misión</h1>
-            <p> Nuestro enfoque principal es rescatar perros que necesiten
-            nuestra ayuda, nos comprometemos a brindar atención médica,
-            socialización y amor a cada perro 
-            que ingrese a nuestro refugio. 
-        </p>
+    <div class="card"> <!--clase principal de las tarjetas-->
+        <div class="face front">
+            <img data-src="img/WhatsApp Image 2024-04-19 at 6.08.22 AM.jpeg" alt="">
+            
         </div>
-        <div>
-            <h1>Visión</h1>
-                <p>
-                Tenemos el compromiso de brindarle una mejor vida a la raza
+        <div class="face back" id="objetivo">
+            <h3>Misión</h3>
+            <p>Nuestro enfoque principal es rescatar perros que necesiten
+                nuestra ayuda, nos comprometemos a brindar atención médica,
+                socialización y amor a cada perro que ingrese a nuestro refugio. Además,
+                nos esforzamos por ser responsables porque queremos ser un lugar con
+                recursos confiables para aquellos que buscan añadir un miembro peludo a
+                su familia. </p>
+                <div class="link"> <!--raya-->
+                    <a href="#"></a>
+                </div>
+            
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="face front">
+            <img data-src="img/WhatsApp Image 2024-04-19 at 6.08.22 AM (1).jpeg" alt="">
+        </div>
+        <div class="face back">
+            <h3>Visión</h3>
+            <p>Tenemos el compromiso de brindarle una mejor vida a la raza
                 canina en la fundación y fuera de ella. Queremos crear un mundo en el
                 qué cada perro reciba la seguridad, el cuidado y amor que merecen, ser un
                 refugio acogedor para estos cachorros sin hogar donde puedan encontrar
-                hogares maravillosos y recibir el amor de personas asombrosas.
-               
-            </p>
-        </div>
-        <div>
-            <h1>Valores</h1>
-                <p>
-               Amor, responsabilidad, empatía, compañerismo, honestidad,
-                respeto, seguridad y compromiso.
-                <img data-src="img/jjj2.jpg" alt="">
-            
-            </p>
+                hogares maravillosos y recibir el amor de personas asombrosas,
+                buscamos educar a la comunidad sobre lo importante que es el cuidado de
+                esos animales.</p>
+                <div class="link">
+                    <a href="#"></a>
+                </div>
+          
             
         </div>
-        </div>
+    </div>
 
-    <section class="menu contenedor">
+    <div class="card">
+        <div class="face front">
+           <img data-src="img/WhatsApp Image 2024-04-19 at 6.08.22 AM (2).jpeg"   width="200"  height="200">
+        </div>
+        <div class="face back">
+            <h3>Valores</h3>
+            <p>Amor, responsabilidad, empatía, compañerismo, honestidad,
+                respeto, seguridad, compromiso, tolerancia, 
+                optimismo, solidaridad, equidad</p>
+                <div class="link">
+                    <a href="#"></a>
+                </div>
+        </div>
+     
+    </div>
+    
+
+    <section class="menu contenedor" >
         <h2 class="texto-perritos">Perritos para Adoptar</h2>
-        <div class="botones-perritos">
+        <div class="botones-perritos" >
             <button class="todos btn btn-verde">Todos</button>
             <button class="pastorAlemans btn btn-verde">Pastor Aleman</button>
             <button class="chihuahua btn btn-verde">Chihuahuas</button>
             <button class=" golden btn btn-verde">Golden</button>
             <button class=" pitbulls btn btn-verde">Pitbull</button>
         </div>
-        <div class="perritos">
+        <div class="perritos" id="raza">
             <div class="perro" data-perro="pastoraleman">
-                <img data-src="img/pastor-aleman1.jpg.crdownload" alt="pastoraleman" width="300" height="200">
+                <img data-src="img/pastor aleman7.jpg" alt="pastoraleman" width="300" height="200">
                 <h2>Guerrero</h2>
                 <p> Este perrito llamado Guerrero fue rescatado en la calle principal (Los cocos de jacagua).
                     corría como desesperado entre los carros, se logró cogerlo,
-                     evidenciando desnutrición severa, y una edad aproximada de 8 meses.
-                      Lleva con nosotros desde el 7 de Noviembre de 2023.
+                    evidenciando desnutrición severa, y una edad aproximada de 8 meses.
+                    Lleva con nosotros desde el 7 de Noviembre de 2023.
 
                 </p>
                 <div class="precio">
-                    <p>$40.0</p>
-                    <button><i class="fas fa-shopping-basket"></i></button>
+                    <p>$20,000</p>
+                    <a  class="btn-adop" href="/adoptar.html">Adoptar</a>
+
                 </div>
             </div>
+            <!--para que aparezca la imagen en los codigos hay que borrar el data-->
             <div class="perro" data-perro="pastoraleman">
+                <!--para que una img aparezca en la pagina hay que ponerle el data -->
                 <img data-src="img/pastoraleman2.webp" alt="pastoraleman" width="300" height="200">
                 <h2>Karla</h2>
                 <p>Esta perrita llamada Karla fue rescatada en las tres cruces de jacagua.
                     la vimos abandonada en un basudero, logramos rescatarla,
-                      y con una edad aproximada de 10 meses.
-                      Lleva con nosotros desde el 15 de Noviembre de 2023.</p>
+                    y con una edad aproximada de 10 meses.
+                    Lleva con nosotros desde el 15 de Noviembre de 2023.</p>
                 <div class="precio">
-                    <p>$40.0</p>
-                    <button><i class="fas fa-shopping-basket"></i></button>
+                    <p>$20,000</p>
+                    <a  class="btn-adop" href="/adoptar.html">Adoptar</a>
+
                 </div>
             </div>
             <div class="perro" data-perro="pastoraleman">
                 <img data-src="img/pastoraleman3.webp" alt="pastoraleman" width="300" height="200">
                 <h2>Max</h2>
                 <p>Este perro llamado Max fue rescatado en la calle de San Pedro de Macoris,
-                      el cual se veia maltrado y sucio, lo acojimos hacia nuestro 
-                     refugio con una edad aproximada de 2 años.
-                      Lleva con nosotros desde el 20 de Diciembre de 2022.</p>
+                    el cual se veia maltrado y sucio, lo acojimos hacia nuestro 
+                    refugio con una edad aproximada de 2 años.
+                    Lleva con nosotros desde el 20 de Diciembre de 2022.</p>
                 <div class="precio">
-                    <p>$40.0</p>
-                    <button><i class="fas fa-shopping-basket"></i></button>
+                    <p>$20,500</p>
+                    <a  class="btn-adop" href="/adoptar.html">Adoptar</a>
+
                 </div>
             </div>
             <div class="perro" data-perro="chihuahua">
                 <img data-src="img/chihuahua1.jpg" alt="chihuahua" width="300" height="200">
                 <h2>Lucy</h2>
                 <p>Esta perrita llamada Lucy fue rescatada en Puerto Plata, por 
-                    unos turistas que notaron que estaba perdida los cuales se 
-                    contactaron con nosotros y llegaron hacia nuestro refugio
+                   unos turistas que notaron que estaba perdida los cuales se 
+                   contactaron con nosotros y llegaron hacia nuestro refugio
                    refugio con una edad aproximada de 1 años.
-                    Lleva con nosotros desde el 20 de enero de 2023. </p>
+                   Lleva con nosotros desde el 20 de enero de 2023. </p>
                 <div class="precio">
-                    <p>$40.0</p>
-                    <button><i class="fas fa-shopping-basket"></i></button>
+                    <p>$8,500</p>
+                    <a  class="btn-adop" href="/adoptar.html">Adoptar</a>
+
                 </div>
             </div>
             <div class="perro" data-perro="chihuahua">
@@ -175,8 +215,9 @@
                     como refugio decidimos ayudarlo y tiene aproximadamente 2 semanas
                     con nosotras.</p>
                 <div class="precio">
-                    <p>$40.0</p>
-                    <button><i class="fas fa-shopping-basket"></i></button>
+                    <p>$8,500</p>
+                    <a  class="btn-adop" href="/adoptar.html">Adoptar</a>
+
                 </div>
             </div>
             <div class="perro" data-perro="chihuahua">
@@ -184,140 +225,165 @@
                 <h2>Maxi</h2>
                 <p>este perrito llamado Maxi fue rescatado en un parque el cual se veia triste
                     y maltratado y nosotras lo acojimos hacia nuestro refugio y le ofrecimos todo el 
-                amor que necesitaba y ya tiene 3 semanas en nuestro refugio. </p>
+                    amor que necesitaba y ya tiene 3 semanas en nuestro refugio. </p>
                 <div class="precio">
-                    <p>$40.0</p>
-                    <button><i class="fas fa-shopping-basket"></i></button>
+                    <p>$8,000</p>
+                    <a  class="btn-adop" href="/adoptar.html">Adoptar</a>
+
                 </div>
-            </div>
+            </div>                    
             <div class="perro" data-perro="golden">
                 <img data-src="img/golden6.jpg" alt="golden" width="300" height="200">
                 <h2>Miel</h2>
-                <p>Esta adorable perrita fue abandonada por su dueña la cual con ella traia una carta y sus pertenencias favoritas y 
-                    decidimos ayudarla aproximadamente tiene un mes con nosotras</p>
+                <p>Esta adorable perrita fue abandonada por su dueña la cual con ella traia 
+                    una carta y sus pertenencias favoritas y decidimos ayudarla aproximadamente 
+                    tiene un mes con nosotras</p>
                 <div class="precio">
-                    <p>$40.0</p>
-                    <button><i class="fas fa-shopping-basket"></i></button>
+                    <p>$15,500</p>
+                    <a  class="btn-adop" href="/adoptar.html">Adoptar</a>
+
                 </div>
             </div>
             <div class="perro" data-perro="golden">
                 <img data-src="img/golden2.jpg" alt="golden" width="300" height="200">
                 <h2>Zeus</h2>
-                <p>Este peludito  fue abandonado en un aeropuerto porque no podia subir al avion sin jaula dicho perrito tenia un collar con informacion
-                 de su dueño y nos contactamos con el y decidimos cuidarlo.</p>
+                <p>Este peludito  fue abandonado en un aeropuerto porque no podia 
+                    subir al avion sin jaula dicho perrito tenia un collar con informacion
+                    de su dueño y nos contactamos con el y decidimos cuidarlo.</p>
                 <div class="precio">
-                    <p>$40.0</p>
+                    <p>$15,000</p>
+                    <a  class="btn-adop" href="/adoptar.html">Adoptar</a>
                 </div>
             </div>
             <div class="perro" data-perro="golden">
                 <img data-src="img/golden5.jpg" alt="golden" width="300" height="200">
                 <h2>Dante</h2>
-                <p>Este perro fue abandonado en un parque esperando que su dueño volviera y nunca volvio hasta que nuestro refugio 
-                    decidio encargarse de el y ya tiene 2 meses con nosotras 
+                <p>Este perro fue abandonado en un parque esperando que su dueño volviera 
+                    y nunca volvio hasta que nuestro refugio decidio encargarse de el y ya
+                    tiene 2 meses con nosotras 
                 </p>
                 <div class="precio">
-                    <p>$40.0</p>
-                    <button><i class="fas fa-shopping-basket"></i></button>
+                    <p>16,500</p>
+                    <a  class="btn-adop" href="/adoptar.html">Adoptar</a>
+
                 </div>
             </div>
             <div class="perro" data-perro="pitbulls">
                 <img data-src="img/pitbull1.jpg" alt="pitbulls" width="300" height="200"> 
                 <h2>Perla</h2>
                 <p>Nuestro refugio acogio esta perrita llamada perla luego de
-                     que un hombre la abandonara cerca de nuestro refugio porque el no deseaba llevarla con el a su casa</p>
+                     que un hombre la abandonara cerca de nuestro refugio porque 
+                     el no deseaba llevarla con el a su casa</p>
                 <div class="precio">
-                    <p>$40.0</p>
-                    <button><i class="fas fa-shopping-basket"></i></button>
+                    <p>30,500</p>
+                    <a  class="btn-adop" href="/adoptar.html">Adoptar</a>
+
                 </div>
             </div>
             <div class="perro" data-perro="pitbulls" width="300" height="200">
               <img data-src="img/pitbull2.jpg" alt="pitbulls" width="300" height="200">
-                <h2>Jack</h2>
-                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <h2>Jack</h2>                
+                <p>Jack fué encontrado por una familia, acostado al borde de una ruta al rayo del sol, deshidratado ,lleno de moscas y garrapatas.
+                     cuando lo encontraron y lo trajeron a la Veterinaria para ser atendido estabamos muy felices porque Jack fué encontrado por una familia  
+                    que sí valoró la vida de un ser indefenso y no pasaron de largo indiferentes, lleva con nosotros 1 año</p>
                 <div class="precio">
-                    <p>$40.0</p>
-                    <button><i class="fas fa-shopping-basket"></i></button>
+                    <p>$32,000</p>
+                    <a  class="btn-adop" href="/adoptar.html">Adoptar</a>
+
                 </div>
             </div>
             <div class="perro" data-perro="pitbulls">
-                <img data-src="img/pitbull7.jpg" alt="pitbulls" width="300" height="200">
+                <img data-src="/img/pitbull 7.jpg" alt="pitbulls" width="300" height="200">
                 <h2>Kiara</h2>
-                <p></p>Esta dulce perrita fue 
+                <p>Kiara vivía entre un montón de basura, gravemente herida y apenas era capaz de caminar. 
+                Ahora ella está feliz y sana con nosotros.</p>
                 <div class="precio">
-                    <p>$40.0</p>
-                    <button><i class="fas fa-shopping-basket"></i></button>
+                    <p>$30,000</p>
+                    <a  class="btn-adop" href="/adoptar.html"> Adoptar</a>
+
                 </div>
             </div>
         </div>
-    </section>
-
-    <div class="separador">
-        <div class="contenido-separador contenedor">
-            <h2>Le ofrecemos el mejor cuidado a cada perrito</h2>
-            <p>No maltratemos a los perritos nin a ningun otro animal</p>
-            <a href="#" class="btn btn-verde">Cuidemoslo</a>
+        <div class="title-car" id="cuidado"><!--titulo-->
+            <h2>Cuidados que Ofrecemos</h2>
+        </div>
+    <div class="container-car"><!--class princ. para darle formato al fondo de las tarjetas-->
+        
+    <div class="car"> <!--formato individual a las tarjetas-->
+        <figure> <!--figura de las img (cuadradas)-->
+            <img data-src="img/vacunacion.jpg">
+        </figure>
+        <div class="contenido-car"> <!--para dar formato a titulo y  parrafo-->
+            <h3>Vacunación</h3>
+            <p>"Cumplimos con el decreto que garantiza la salud y bienestar de todas las mascotas 
+                mediante un estricto programa de vacunación ¡Porque prevenir es cuidar!.</p>
+          
         </div>
     </div>
-
-    <section class="cuidado contenedor">
-        <h2>Chef ejecutivo</h2>
-        <div class="contenido-cuidado">
-            <div class="texto-cuidado">
-                <h3>El amor mas sincero y verdadero lo ofreces un perrito no lo maltrates y adoptalo contactanos
-                     a travez de nuestro refugio Patitas Felices
-                    
-            
-                </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus corporis dolores eveniet
-                    vitae,
-                    natus tempora recusandae hic laborum error ducimus repellat, laudantium temporibus tenetur totam
-                    sint
-                    consequuntur eligendi! Asperiores, ad.</p>
-                <a href="#" class="btn btn-verde">Leer Bíografia</a>
-            </div>
-            <div class="imagen-cuidado">
-                <img data-src="img/img4.jpg" alt="fotografia del cuidado">
-            </div>
+    <div class="car"> <!--formato individual a las tarjetas-->
+         <figure>
+            <img data-src="img/esterilizacion.jpg">
+        </figure>
+        
+        <div class="contenido-car"> <!--para dar formato a titulo y  parrafo--> 
+            <h3>Esterilización</h3>
+            <p> La esterilización en los perros es una cirugía que se realiza para prevenir la 
+                reproducción y controlar ciertos comportamientos.</p>
+          
         </div>
-    </section>
+    </div>
+    <div class="car"> <!--formato individual a las tarjetas-->
+        <figure>
+            <img data-src="img/baño.jpg">
+        </figure>
+        <div class="contenido-car"><!--para dar formato a titulo y  parrafo-->
+            <h3>Baños y peluquerias</h3>
+            <p>Ofrecemos baños relajantes y servicios de peluquería para que luzcan impecables. 
+                Porque cada mascota merece ser mimada y cuidada con amor.</p>
+           
+        </div>
+    </div>
+    </div>
+    <!--Fin   Tarjetas-->
 
-    <div class="formulario-contacto contenedor">
+    
+   
+
+    <div class="formulario-contacto contenedor" id="contact">
 
         <div class="informacion-contacto">
             <h3>Contactanos</h3>
-            <p><i class="fas fa-map-marker-alt"></i>23. Roma Italia 75012</p>
-            <p><i class="fas fa-envelope"></i> luca@turilli.it</p>
-            <p><i class="fas fa-phone-alt"></i>+31123410921</p>
-            <div class="redes-sociales">
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-twitter-square"></i>
-                <i class="fab fa-instagram"></i>
-            </div>
+            <p><i class="fas fa-map-marker-alt"></i>Santiago de los Caballeros</p>
+            <p><i class="fas fa-envelope"></i>patitasfelices04@gmail.com</p>
+            <p><i class="fas fa-phone-alt"></i>849-764-8356</p>
+          
         </div>
 
         <form class="formulario">
             <div class="input-formulario">
-                <label for="nombre">Nombre</label>
-                <input type="text" placeholder="Pedro" id="nombre">
+                <label for="nombre" placeholder="Nombre completo">Nombre</label>
+                <input type="text" id="nombre">
             </div>
             <div class="input-formulario">
-                <label for="apellidos">Apellido</label>
-                <input type="text" placeholder="Pedro" id="apellidos">
+                <label for="apellidos"placeholder="apellidos">Apellido</label>
+                <input type="text" id="apellidos">
             </div>
             <div class="input-formulario">
-                <label for="correo">Correo</label>
-                <input type="email" placeholder="ejemplo@ejemplo.com" id="correo">
+                <label for="correo" placeholder="correo">Correo</label>
+                <input type="email" id="correo">
             </div>
             <div class="input-formulario">
-                <label for="telefono">Teléfono</label>
-                <input type="tel" placeholder="+90 543 779 9410" id="telefono">
+                <label for="telefono" placeholder="telefono">Teléfono</label>
+                <input type="tel" id="telefono">
             </div>
             <div class="input-formulario">
                 <label for="mensaje">Mensaje</label>
                 <textarea></textarea>
             </div>
             <div class="btn-formulario">
-                <input type="submit" class="btn btn-verde" value="Enviar">
+                <button class="btn-enviar1" onclick ="alert('se ha enviado tu comentario')">
+                    Enviar 
+                    </button>
             </div>
             
         </form>
@@ -326,34 +392,26 @@
         <div class="contenedor-piepagina contenedor">
             <div class="info">
                 <h3>Dirección</h3>
-                <p>23</p>
+                <p>Santiago</p>
             </div>
             <div class="info">
                 <h3>Días especiales</h3>
-                <p>Sabados y Jueves 7am - 11pm</p>
-                <p>+3123410921</p>
+                <p>Sabados y Jueves 7am - 8pm</p>
+                <p>1+ 829-341-0921</p>
             </div>
-            <div class="info">
+            <div class="info" id="horarios">
                 <h3>Horarios</h3>
-                <p>Lunes - Domingo 7am - 11pm</p>
-                <div class="redes-sociales redes-pie">
-                    <i class="fab fa-facebook-square"></i>
-                    <i class="fab fa-twitter-square"></i>
-                    <i class="fab fa-instagram"></i>
-                </div>
+            <p>Lunes - Domingo 7am - 5pm</p>
+               
             </div>
-            <div class="info">
-                <h3>Noticias</h3>
-                <p>suscribete para recibir más noticias</p>
-                <input type="email" placeholder="Tu correo">
-                <input type="submit" class="btn btn-verde" value="Suscribirse">
-            </div>
+          
         </div>
     </div>
     <footer class="footer">
-        <p>Todos los derechos reservados &copy; , desarrollado</p>
+        <p>Todos los derechos reservados &copy; desarrollado</p>
     </footer>
     <script src="/js/app.js"></script>
+   
 
 </body>
 
